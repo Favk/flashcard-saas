@@ -1,3 +1,5 @@
+import { Container } from "@mui/material";
+
 const ResultPage = () => {
   const router = useRouter()
   const searchParams = useSearchParams()
