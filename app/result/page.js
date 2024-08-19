@@ -1,4 +1,5 @@
-import { Container } from "@mui/material";
+import { ClerkProvider, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { Container, Box, Typography, AppBar, Toolbar, Button, Grid } from '@mui/material'
 
 const ResultPage = () => {
   const router = useRouter()
